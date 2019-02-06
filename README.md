@@ -5,11 +5,11 @@ A simple project template
 The `Makefile` contains information about how to build and maintain the
 project.
 
-To build
+__To build__
 : type `make` or `make fage`  
   `make` itself knows how to build an executable from a single C source file
 
-To clean
+__To clean__
 : type `make clean`  
   This will delete all the generated files.
 
