@@ -28,7 +28,7 @@ int main ( int argc, char *argv[] )
 		else { 
 			time_t access = metadata.st_atime;
 			time_t age = (time_t)difftime( now, access );
-			printf("file %s has age %ds\n", argv[n], age);
+			printf("file %s has age %ds\n", argv[n], (int)age);
 			strftime(buffer, len, "%j days %k hours %M minutes and %S seconds", localtime( &age ) );
 			printf("%s\n", buffer);
 		}
